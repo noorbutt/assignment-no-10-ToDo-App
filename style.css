@@ -1,0 +1,123 @@
+.maincontainer{
+    text-align: center;
+     margin-top: 100px;   
+}
+  
+
+
+
+h1{
+    text-align: center;
+    top: 100px;
+    font-family: Georgia, serif; 
+    color: seashell;
+}  
+
+
+
+
+body{
+   background-image:url('./tree.jpg') ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 1000px;
+ }
+
+ 
+
+
+.list1{
+    text-align: center;
+    margin-top: 30px; 
+       font-weight: bold;   
+     backdrop-filter: blur(3px); 
+     font-size: 20px; 
+ 
+} 
+
+
+
+
+
+.in{
+    width: 350px;
+    height: 40px;
+    font-weight: 150px;
+    margin-top: 50px;  
+    font-family: Georgia, serif; 
+    font-size: 20px; 
+    
+}
+
+
+
+
+ .btn-secondary{
+     margin-top: 10px;  
+     margin-left: 50px; 
+ }
+
+
+
+
+.btn-light{
+    margin-top: 10px; 
+     margin-left: 50px;   
+ }
+
+
+
+
+
+ h1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+
+  h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid white;
+    margin: auto;
+
+  }
+
+
+
+  h1:before {
+    margin-right: 10px
+  }
+
+
+
+
+  h1:after {
+    margin-left: 10px
+  }
+
+
+
+
+ .li{
+    margin-right:400px ;
+    font-family: sans-serif;
+    color: thistle;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
